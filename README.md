@@ -1,6 +1,13 @@
-mkdir -p A_Exploratory_Data_Analytics/{1_Database_Exploration,2_Dimension_Exploration,3_Data_Exploration,4_Measure_Exploration,5_Magnitude,6_Ranking_TopN_BottomN}
-mkdir -p B_Advanced_Analytics/{1_Change_Over_Time,2_Cumulative_Analysis,3_Performance_Analysis,4_Part_to_Whole,5_Data_Segmentation,6_Reporting}
+# Data Analytics
 
-# add placeholder files so folders aren't empty
-find A_Exploratory_Data_Analytics -type d -exec touch {}/.gitkeep \;
-find B_Advanced_Analytics -type d -exec touch {}/.gitkeep \;
+A structured project covering the full analytics workflow — from exploring 
+raw data to advanced trend and performance analysis.
+
+## Structure
+
+- **A) Exploratory Data Analytics** — understanding the data's structure, 
+  dimensions, and measures.
+- **B) Advanced Analytics** — analyzing trends, performance, and segments 
+  to derive business insights.
+
+See the README inside each folder for details on that section.
