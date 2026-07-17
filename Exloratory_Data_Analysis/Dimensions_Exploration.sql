@@ -1,5 +1,13 @@
--- Identifying the unique values (or categories) in each dimension
--- Recognizing how data might be grouped or segmented, which is useful for later analysis
+/*
+Identifying the unique values (or categories) in each dimension
+Recognizing how data might be grouped or segmented, which is useful for later analysis
+
+DISTINCT[DIMENSION]
+
+EX. DISTINCT[Country]
+    DISTINCT[Category]
+    DISTINCT[Product]
+*/
 
 -- 1) Explore all countries our customers come from (DISTINCT)
 SELECT DISTINCT country
@@ -14,3 +22,7 @@ FROM dim_products;
 
 SELECT DISTINCT category, subcategory, product_name 
 FROM dim_products;
+
+SELECT DISTINCT category, subcategory, product_name
+FROM dim_products
+ORDER BY 1,2,3;
